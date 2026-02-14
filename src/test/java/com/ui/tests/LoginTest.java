@@ -13,13 +13,13 @@ import com.utilities.LoggerUtility;
 import com.utilities.User;
 
 @Listeners(com.ui.listeners.TestListener.class)
-public class LoginTest extends TestBase{
+public class LoginTest extends TestBase {
 
 	@BeforeMethod(description = "Load the HomePage of the WebSite")
 	public void setUp() {
 		logger.info("Load the HomePage of the WebSite");
 
-		homePage = new HomePage(CHROME,true);
+		homePage = new HomePage(CHROME, true);
 
 	}
 
