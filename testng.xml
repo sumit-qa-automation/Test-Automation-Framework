@@ -5,7 +5,7 @@
 	<test name="UI Automation test">
 		<parameter name="browser" value="${browser}"/>
 		<parameter name="isLambdaTest" value="${isLambdaTest}"/>
-		<parameter name="isHeadless" value="${isLambdaTest}"/>
+		<parameter name="isHeadless" value="${isHeadless}"/>
 		
 	
 		<classes>
