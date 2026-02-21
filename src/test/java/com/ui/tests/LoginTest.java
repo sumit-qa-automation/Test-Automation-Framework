@@ -13,6 +13,7 @@ import com.utilities.LoggerUtility;
 import com.utilities.User;
 
 @Listeners(com.ui.listeners.TestListener.class)
+
 public class LoginTest extends TestBase {
 
 	@BeforeMethod(description = "Load the HomePage of the WebSite")
